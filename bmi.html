@@ -36,7 +36,7 @@
 </header>
 <body>  
     <section id="tools">
-        <h1 class="progHeader sectionHeader">Basal Metabolic Rate calculator</h1>
+        <h1 class="progHeader sectionHeader">Body Mass Index calculator</h1>
 <div class="tools-wrap">
     <div class="toolsCalc">
    <form>
@@ -46,22 +46,16 @@
         <input id="height" type="number" required></br>
         <label for="age">Age:</label></br>
         <input id="age" type="number" required></br>
-        <input class="button btnSubmit" onclick="getBmrKcal()" type="submit" value="Submit"></input>
+        <input class="button btnSubmit" onclick="getBmi()" type="submit" value="Submit"></input>
    </form>
-        <!-- To be added for different pattern of BMR calculation -->
-
-    <!-- <label for="sex">Sex at Birth:</label>
-    <select name="sex" id="sex" required>
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-    </select>  -->
+   
     
     </div>
     <div class="toolsInfo">
-        <h1>BMR Calculator</h1>
-        <h2>Calculates your caloric intake needed</h2>
-        <p>This version calculates approximate activity caloric need</p>
-        <h1 class="bmrInfo">Your basal metabolic rate is: </h1><h1 id="bmrKcal"></h1>
+        <h1>BMI Calculator</h1>
+        <h2>Calculates your Body Mass Index</h2>
+        <p>This version calculates BMI </p>
+        <h1 class="bmrInfo">Your Body Mass Index is: </h1><h1 id="bmiValue"></h1>
         <h1 id="lowActivity" class="activInfo"></h1>    
         <h1 id="midActivity" class="activInfo"></h1>  
         <h1 id="highActivity" class="activInfo"></h1>  
@@ -74,7 +68,7 @@
 
     </section>
 <footer id="footer">
-    <p class="info">Coded and designed by Github_Username.</p>
+    <p class="info">Coded and designed by MrSr0ka.</p>
     <div class="footerCol">
         <div class="footer1 footCols">
             <h1 class="footerMenu">Categories</h1>
@@ -109,9 +103,9 @@
             </ul>
         </div>
     </div>
-    <p class="signature">All rights reserved 2022 username_github</p>
+    <p class="signature">All rights reserved 2022 MrSr0ka</p>
     
 </footer>
-    <script src="/bmr.js"></script>
+    <script src="/bmi.js"></script>
 </body>
 </html>

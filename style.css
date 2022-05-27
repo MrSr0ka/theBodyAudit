@@ -336,3 +336,22 @@ body {
   .bmrInfo {
     margin-top: 3rem;
   }
+
+  /* === MACROS DISPLAY === */
+
+  .macrosContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .macroDisplay {
+    margin: auto auto 5rem auto;
+    height: 150px;
+    width: 300px;
+    border: 1px grey solid;
+    border-radius: 10%;
+    padding: 40px 0;
+    text-align: center;
+  }

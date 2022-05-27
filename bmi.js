@@ -3,11 +3,11 @@ function getBmi() {
 
   weight = document.getElementById("weight").value;
   height = document.getElementById("height").value;
-  age = document.getElementById("age").value;
+  // age = document.getElementById("age").value;
 
-  let bmiPattern = weight / (height * height);
+  let height2 = height * height;
 
-  document.getElementById("bmiValue").innerText = bmiPattern.toFixed(0);
+  let bmiPattern = weight / height2;
 
-  return bmiPattern;
+  document.getElementById("bmiValue").innerText = bmiPattern.toFixed(2);
 }
